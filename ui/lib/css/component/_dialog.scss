@@ -110,8 +110,8 @@ dialog {
     font-size: 16px;
     span {
       display: flex;
-      gap: 2em;
-      justify-content: end;
+      gap: 6em;
+      justify-content: center;
 
       dialog.touch-scroll & {
         justify-content: space-around;
