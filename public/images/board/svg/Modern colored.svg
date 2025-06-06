@@ -1,0 +1,113 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Modern colored">
+  <!-- Background frame -->
+  <rect x="0" y="0" width="800" height="800" fill="#D3D3D3" rx="8" ry="8"/>
+
+  <defs>
+    <!-- Light and dark squares -->
+    <rect id="light" width="90" height="90" rx="8" ry="8" fill="#F9F9F9"/>
+    <rect id="dark" width="90" height="90" rx="8" ry="8" fill="#4A4A4A"/>
+  </defs>
+
+  <!-- Board squares -->
+  <g>
+    <!-- Generate 8x8 grid -->
+    <!-- Pad = 5 per square, total cell = 100, square size = 90 -->
+    <!-- Light if (row + col) % 2 == 0 else dark -->
+    <!-- Use <use> for reusability and clarity -->
+    <g>
+      <!-- Rows -->
+      <g transform="translate(5,5)">
+        <!-- 8 rows -->
+        <g>
+          <!-- Create 64 squares using nested loops -->
+          <!-- You can't loop in raw SVG, but for compact code: simulate with explicit generation -->
+          <!-- Each square is positioned at (col * 100, row * 100) -->
+          <!-- Here's generated content -->
+          <!-- You can script this in JS or preprocess via Python, but shown fully expanded here for valid SVG -->
+
+          <!-- Render squares (minimalistic, one loop per row) -->
+          <!-- Example for row 0 -->
+          <use href="#light" x="0" y="0"/>
+          <use href="#dark" x="100" y="0"/>
+          <use href="#light" x="200" y="0"/>
+          <use href="#dark" x="300" y="0"/>
+          <use href="#light" x="400" y="0"/>
+          <use href="#dark" x="500" y="0"/>
+          <use href="#light" x="600" y="0"/>
+          <use href="#dark" x="700" y="0"/>
+
+          <!-- row 1 -->
+          <use href="#dark" x="0" y="100"/>
+          <use href="#light" x="100" y="100"/>
+          <use href="#dark" x="200" y="100"/>
+          <use href="#light" x="300" y="100"/>
+          <use href="#dark" x="400" y="100"/>
+          <use href="#light" x="500" y="100"/>
+          <use href="#dark" x="600" y="100"/>
+          <use href="#light" x="700" y="100"/>
+
+          <!-- row 2 -->
+          <use href="#light" x="0" y="200"/>
+          <use href="#dark" x="100" y="200"/>
+          <use href="#light" x="200" y="200"/>
+          <use href="#dark" x="300" y="200"/>
+          <use href="#light" x="400" y="200"/>
+          <use href="#dark" x="500" y="200"/>
+          <use href="#light" x="600" y="200"/>
+          <use href="#dark" x="700" y="200"/>
+
+          <!-- row 3 -->
+          <use href="#dark" x="0" y="300"/>
+          <use href="#light" x="100" y="300"/>
+          <use href="#dark" x="200" y="300"/>
+          <use href="#light" x="300" y="300"/>
+          <use href="#dark" x="400" y="300"/>
+          <use href="#light" x="500" y="300"/>
+          <use href="#dark" x="600" y="300"/>
+          <use href="#light" x="700" y="300"/>
+
+          <!-- row 4 -->
+          <use href="#light" x="0" y="400"/>
+          <use href="#dark" x="100" y="400"/>
+          <use href="#light" x="200" y="400"/>
+          <use href="#dark" x="300" y="400"/>
+          <use href="#light" x="400" y="400"/>
+          <use href="#dark" x="500" y="400"/>
+          <use href="#light" x="600" y="400"/>
+          <use href="#dark" x="700" y="400"/>
+
+          <!-- row 5 -->
+          <use href="#dark" x="0" y="500"/>
+          <use href="#light" x="100" y="500"/>
+          <use href="#dark" x="200" y="500"/>
+          <use href="#light" x="300" y="500"/>
+          <use href="#dark" x="400" y="500"/>
+          <use href="#light" x="500" y="500"/>
+          <use href="#dark" x="600" y="500"/>
+          <use href="#light" x="700" y="500"/>
+
+          <!-- row 6 -->
+          <use href="#light" x="0" y="600"/>
+          <use href="#dark" x="100" y="600"/>
+          <use href="#light" x="200" y="600"/>
+          <use href="#dark" x="300" y="600"/>
+          <use href="#light" x="400" y="600"/>
+          <use href="#dark" x="500" y="600"/>
+          <use href="#light" x="600" y="600"/>
+          <use href="#dark" x="700" y="600"/>
+
+          <!-- row 7 -->
+          <use href="#dark" x="0" y="700"/>
+          <use href="#light" x="100" y="700"/>
+          <use href="#dark" x="200" y="700"/>
+          <use href="#light" x="300" y="700"/>
+          <use href="#dark" x="400" y="700"/>
+          <use href="#light" x="500" y="700"/>
+          <use href="#dark" x="600" y="700"/>
+          <use href="#light" x="700" y="700"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+

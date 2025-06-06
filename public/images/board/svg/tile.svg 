@@ -1,0 +1,97 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Flipped and inverted monochromatic chessboard">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#C0C0C0" />
+
+  <defs>
+    <!-- White padded square -->
+    <rect id="w" width="90" height="90" rx="8" ry="8" fill="#FFFFFF" />
+    <!-- Dark padded square -->
+    <rect id="d" width="90" height="90" rx="8" ry="8" fill="#A0A0A0" />
+  </defs>
+
+  <!-- Generate 8x8 board with padding -->
+  <g>
+    <!-- Each row (y axis) -->
+    <g transform="translate(0,0)">
+      <use href="#w" x="5" y="5" />
+      <use href="#d" x="105" y="5" />
+      <use href="#w" x="205" y="5" />
+      <use href="#d" x="305" y="5" />
+      <use href="#w" x="405" y="5" />
+      <use href="#d" x="505" y="5" />
+      <use href="#w" x="605" y="5" />
+      <use href="#d" x="705" y="5" />
+    </g>
+    <g transform="translate(0,100)">
+      <use href="#d" x="5" y="5" />
+      <use href="#w" x="105" y="5" />
+      <use href="#d" x="205" y="5" />
+      <use href="#w" x="305" y="5" />
+      <use href="#d" x="405" y="5" />
+      <use href="#w" x="505" y="5" />
+      <use href="#d" x="605" y="5" />
+      <use href="#w" x="705" y="5" />
+    </g>
+    <g transform="translate(0,200)">
+      <use href="#w" x="5" y="5" />
+      <use href="#d" x="105" y="5" />
+      <use href="#w" x="205" y="5" />
+      <use href="#d" x="305" y="5" />
+      <use href="#w" x="405" y="5" />
+      <use href="#d" x="505" y="5" />
+      <use href="#w" x="605" y="5" />
+      <use href="#d" x="705" y="5" />
+    </g>
+    <g transform="translate(0,300)">
+      <use href="#d" x="5" y="5" />
+      <use href="#w" x="105" y="5" />
+      <use href="#d" x="205" y="5" />
+      <use href="#w" x="305" y="5" />
+      <use href="#d" x="405" y="5" />
+      <use href="#w" x="505" y="5" />
+      <use href="#d" x="605" y="5" />
+      <use href="#w" x="705" y="5" />
+    </g>
+    <g transform="translate(0,400)">
+      <use href="#w" x="5" y="5" />
+      <use href="#d" x="105" y="5" />
+      <use href="#w" x="205" y="5" />
+      <use href="#d" x="305" y="5" />
+      <use href="#w" x="405" y="5" />
+      <use href="#d" x="505" y="5" />
+      <use href="#w" x="605" y="5" />
+      <use href="#d" x="705" y="5" />
+    </g>
+    <g transform="translate(0,500)">
+      <use href="#d" x="5" y="5" />
+      <use href="#w" x="105" y="5" />
+      <use href="#d" x="205" y="5" />
+      <use href="#w" x="305" y="5" />
+      <use href="#d" x="405" y="5" />
+      <use href="#w" x="505" y="5" />
+      <use href="#d" x="605" y="5" />
+      <use href="#w" x="705" y="5" />
+    </g>
+    <g transform="translate(0,600)">
+      <use href="#w" x="5" y="5" />
+      <use href="#d" x="105" y="5" />
+      <use href="#w" x="205" y="5" />
+      <use href="#d" x="305" y="5" />
+      <use href="#w" x="405" y="5" />
+      <use href="#d" x="505" y="5" />
+      <use href="#w" x="605" y="5" />
+      <use href="#d" x="705" y="5" />
+    </g>
+    <g transform="translate(0,700)">
+      <use href="#d" x="5" y="5" />
+      <use href="#w" x="105" y="5" />
+      <use href="#d" x="205" y="5" />
+      <use href="#w" x="305" y="5" />
+      <use href="#d" x="405" y="5" />
+      <use href="#w" x="505" y="5" />
+      <use href="#d" x="605" y="5" />
+      <use href="#w" x="705" y="5" />
+    </g>
+  </g>
+</svg>
+

@@ -1,0 +1,31 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Glassmorphism themed chessboard">
+  <rect width="800" height="800" fill="#2C3E50" rx="12" ry="12"/>
+
+  <defs>
+    <filter id="frostedGlass" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  
+                                                    0 1 0 0 0  
+                                                    0 0 1 0 0  
+                                                    0 0 0 18 -7" result="frosted" />
+      <feBlend in="SourceGraphic" in2="frosted" mode="normal" />
+    </filter>
+
+    <!-- Pattern for light squares -->
+    <pattern id="lightSquare" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+      <rect x="5" y="5" width="90" height="90" rx="10" ry="10" fill="#A0DDE6" fill-opacity="0.2" stroke="#fff" stroke-width="1" filter="url(#frostedGlass)" />
+      <rect x="105" y="105" width="90" height="90" rx="10" ry="10" fill="#A0DDE6" fill-opacity="0.2" stroke="#fff" stroke-width="1" filter="url(#frostedGlass)" />
+    </pattern>
+
+    <!-- Pattern for dark squares -->
+    <pattern id="darkSquare" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+      <rect x="105" y="5" width="90" height="90" rx="10" ry="10" fill="#4A6F8B" fill-opacity="0.2" stroke="#fff" stroke-width="1" filter="url(#frostedGlass)" />
+      <rect x="5" y="105" width="90" height="90" rx="10" ry="10" fill="#4A6F8B" fill-opacity="0.2" stroke="#fff" stroke-width="1" filter="url(#frostedGlass)" />
+    </pattern>
+  </defs>
+
+  <!-- Draw the full board by overlaying the two patterns -->
+  <rect width="800" height="800" fill="url(#lightSquare)" />
+  <rect width="800" height="800" fill="url(#darkSquare)" />
+</svg>
+

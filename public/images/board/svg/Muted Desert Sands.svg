@@ -1,0 +1,81 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Muted Desert Sands">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#E0D8BF" />
+
+  <defs>
+    <rect id="sq" width="90" height="90" rx="8" ry="8"/>
+  </defs>
+
+  <!-- Light squares -->
+  <g fill="#FDFBEA">
+    <use href="#sq" x="5" y="5"/>
+    <use href="#sq" x="205" y="5"/>
+    <use href="#sq" x="405" y="5"/>
+    <use href="#sq" x="605" y="5"/>
+    <use href="#sq" x="105" y="105"/>
+    <use href="#sq" x="305" y="105"/>
+    <use href="#sq" x="505" y="105"/>
+    <use href="#sq" x="705" y="105"/>
+    <use href="#sq" x="5" y="205"/>
+    <use href="#sq" x="205" y="205"/>
+    <use href="#sq" x="405" y="205"/>
+    <use href="#sq" x="605" y="205"/>
+    <use href="#sq" x="105" y="305"/>
+    <use href="#sq" x="305" y="305"/>
+    <use href="#sq" x="505" y="305"/>
+    <use href="#sq" x="705" y="305"/>
+    <use href="#sq" x="5" y="405"/>
+    <use href="#sq" x="205" y="405"/>
+    <use href="#sq" x="405" y="405"/>
+    <use href="#sq" x="605" y="405"/>
+    <use href="#sq" x="105" y="505"/>
+    <use href="#sq" x="305" y="505"/>
+    <use href="#sq" x="505" y="505"/>
+    <use href="#sq" x="705" y="505"/>
+    <use href="#sq" x="5" y="605"/>
+    <use href="#sq" x="205" y="605"/>
+    <use href="#sq" x="405" y="605"/>
+    <use href="#sq" x="605" y="605"/>
+    <use href="#sq" x="105" y="705"/>
+    <use href="#sq" x="305" y="705"/>
+    <use href="#sq" x="505" y="705"/>
+    <use href="#sq" x="705" y="705"/>
+  </g>
+
+  <!-- Dark squares -->
+  <g fill="#D9C7A1">
+    <use href="#sq" x="105" y="5"/>
+    <use href="#sq" x="305" y="5"/>
+    <use href="#sq" x="505" y="5"/>
+    <use href="#sq" x="705" y="5"/>
+    <use href="#sq" x="5" y="105"/>
+    <use href="#sq" x="205" y="105"/>
+    <use href="#sq" x="405" y="105"/>
+    <use href="#sq" x="605" y="105"/>
+    <use href="#sq" x="105" y="205"/>
+    <use href="#sq" x="305" y="205"/>
+    <use href="#sq" x="505" y="205"/>
+    <use href="#sq" x="705" y="205"/>
+    <use href="#sq" x="5" y="305"/>
+    <use href="#sq" x="205" y="305"/>
+    <use href="#sq" x="405" y="305"/>
+    <use href="#sq" x="605" y="305"/>
+    <use href="#sq" x="105" y="405"/>
+    <use href="#sq" x="305" y="405"/>
+    <use href="#sq" x="505" y="405"/>
+    <use href="#sq" x="705" y="405"/>
+    <use href="#sq" x="5" y="505"/>
+    <use href="#sq" x="205" y="505"/>
+    <use href="#sq" x="405" y="505"/>
+    <use href="#sq" x="605" y="505"/>
+    <use href="#sq" x="105" y="605"/>
+    <use href="#sq" x="305" y="605"/>
+    <use href="#sq" x="505" y="605"/>
+    <use href="#sq" x="705" y="605"/>
+    <use href="#sq" x="5" y="705"/>
+    <use href="#sq" x="205" y="705"/>
+    <use href="#sq" x="405" y="705"/>
+    <use href="#sq" x="605" y="705"/>
+  </g>
+</svg>
+

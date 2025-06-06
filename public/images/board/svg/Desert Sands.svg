@@ -1,0 +1,86 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Desert Sands">
+  <!-- Background grid -->
+  <rect width="800" height="800" fill="#D2B48C"/>
+
+  <!-- Define a rounded square -->
+  <defs>
+    <rect id="s" width="90" height="90" rx="8" ry="8"/>
+  </defs>
+
+  <!-- 8x8 chessboard pattern -->
+  <g>
+    <!-- Loop rows and columns -->
+    <g fill="#F5DEB3">
+      <!-- Light squares -->
+      <use href="#s" x="5" y="5"/>
+      <use href="#s" x="205" y="5"/>
+      <use href="#s" x="405" y="5"/>
+      <use href="#s" x="605" y="5"/>
+      <use href="#s" x="105" y="105"/>
+      <use href="#s" x="305" y="105"/>
+      <use href="#s" x="505" y="105"/>
+      <use href="#s" x="705" y="105"/>
+      <use href="#s" x="5" y="205"/>
+      <use href="#s" x="205" y="205"/>
+      <use href="#s" x="405" y="205"/>
+      <use href="#s" x="605" y="205"/>
+      <use href="#s" x="105" y="305"/>
+      <use href="#s" x="305" y="305"/>
+      <use href="#s" x="505" y="305"/>
+      <use href="#s" x="705" y="305"/>
+      <use href="#s" x="5" y="405"/>
+      <use href="#s" x="205" y="405"/>
+      <use href="#s" x="405" y="405"/>
+      <use href="#s" x="605" y="405"/>
+      <use href="#s" x="105" y="505"/>
+      <use href="#s" x="305" y="505"/>
+      <use href="#s" x="505" y="505"/>
+      <use href="#s" x="705" y="505"/>
+      <use href="#s" x="5" y="605"/>
+      <use href="#s" x="205" y="605"/>
+      <use href="#s" x="405" y="605"/>
+      <use href="#s" x="605" y="605"/>
+      <use href="#s" x="105" y="705"/>
+      <use href="#s" x="305" y="705"/>
+      <use href="#s" x="505" y="705"/>
+      <use href="#s" x="705" y="705"/>
+    </g>
+
+    <g fill="#CD853F">
+      <!-- Dark squares -->
+      <use href="#s" x="105" y="5"/>
+      <use href="#s" x="305" y="5"/>
+      <use href="#s" x="505" y="5"/>
+      <use href="#s" x="705" y="5"/>
+      <use href="#s" x="5" y="105"/>
+      <use href="#s" x="205" y="105"/>
+      <use href="#s" x="405" y="105"/>
+      <use href="#s" x="605" y="105"/>
+      <use href="#s" x="105" y="205"/>
+      <use href="#s" x="305" y="205"/>
+      <use href="#s" x="505" y="205"/>
+      <use href="#s" x="705" y="205"/>
+      <use href="#s" x="5" y="305"/>
+      <use href="#s" x="205" y="305"/>
+      <use href="#s" x="405" y="305"/>
+      <use href="#s" x="605" y="305"/>
+      <use href="#s" x="105" y="405"/>
+      <use href="#s" x="305" y="405"/>
+      <use href="#s" x="505" y="405"/>
+      <use href="#s" x="705" y="405"/>
+      <use href="#s" x="5" y="505"/>
+      <use href="#s" x="205" y="505"/>
+      <use href="#s" x="405" y="505"/>
+      <use href="#s" x="605" y="505"/>
+      <use href="#s" x="105" y="605"/>
+      <use href="#s" x="305" y="605"/>
+      <use href="#s" x="505" y="605"/>
+      <use href="#s" x="705" y="605"/>
+      <use href="#s" x="5" y="705"/>
+      <use href="#s" x="205" y="705"/>
+      <use href="#s" x="405" y="705"/>
+      <use href="#s" x="605" y="705"/>
+    </g>
+  </g>
+</svg>
+

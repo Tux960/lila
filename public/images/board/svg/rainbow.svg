@@ -1,0 +1,110 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rainbow themed chessboard with toned-down rainbow frame and softer square colors">
+  <defs>
+    <linearGradient id="rainbowFrameGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFCCCC" />
+      <stop offset="16%" stop-color="#FFDDBB" />
+      <stop offset="33%" stop-color="#FFFFCC" />
+      <stop offset="50%" stop-color="#CCFFCC" />
+      <stop offset="67%" stop-color="#CCCCFF" />
+      <stop offset="84%" stop-color="#DDCFFF" />
+      <stop offset="100%" stop-color="#FFCCFF" />
+    </linearGradient>
+  </defs>
+
+  <!-- Rainbow frame -->
+  <rect width="800" height="800" fill="url(#rainbowFrameGradient)" rx="8" ry="8"/>
+
+  <!-- Chessboard squares -->
+  <g>
+    <!-- Render 8x8 grid -->
+    <!-- Square size: 100x100, with 5px padding = inner square of 90x90 -->
+    <!-- Light: #F5F5F5 | Dark: #A0A0A0 -->
+    <!-- Position each square based on row (y) and col (x) -->
+    <!-- Even sum of (row + col): light; odd: dark -->
+    <!-- Use 8x8 nested loops written inline -->
+    <g>
+      <!-- Light and dark squares -->
+      <!-- JavaScript-style loop logic represented in inline SVG by repetition -->
+      <!-- You can generate this via a script or program -->
+      <!-- For clarity, below is a condensed static version -->
+      <g>
+        <!-- 64 squares -->
+        <!-- Generate using (row * 100 + 5), (col * 100 + 5) with color based on (row + col) % 2 -->
+        <!-- Only 1 <rect> element per square -->
+        <!-- Light squares -->
+        <g fill="#F5F5F5">
+          <!-- Light square rects -->
+          <rect x="5" y="5" width="90" height="90" rx="8" ry="8"/>
+          <rect x="205" y="5" width="90" height="90" rx="8" ry="8"/>
+          <rect x="405" y="5" width="90" height="90" rx="8" ry="8"/>
+          <rect x="605" y="5" width="90" height="90" rx="8" ry="8"/>
+          <rect x="105" y="105" width="90" height="90" rx="8" ry="8"/>
+          <rect x="305" y="105" width="90" height="90" rx="8" ry="8"/>
+          <rect x="505" y="105" width="90" height="90" rx="8" ry="8"/>
+          <rect x="705" y="105" width="90" height="90" rx="8" ry="8"/>
+          <rect x="5" y="205" width="90" height="90" rx="8" ry="8"/>
+          <rect x="205" y="205" width="90" height="90" rx="8" ry="8"/>
+          <rect x="405" y="205" width="90" height="90" rx="8" ry="8"/>
+          <rect x="605" y="205" width="90" height="90" rx="8" ry="8"/>
+          <rect x="105" y="305" width="90" height="90" rx="8" ry="8"/>
+          <rect x="305" y="305" width="90" height="90" rx="8" ry="8"/>
+          <rect x="505" y="305" width="90" height="90" rx="8" ry="8"/>
+          <rect x="705" y="305" width="90" height="90" rx="8" ry="8"/>
+          <rect x="5" y="405" width="90" height="90" rx="8" ry="8"/>
+          <rect x="205" y="405" width="90" height="90" rx="8" ry="8"/>
+          <rect x="405" y="405" width="90" height="90" rx="8" ry="8"/>
+          <rect x="605" y="405" width="90" height="90" rx="8" ry="8"/>
+          <rect x="105" y="505" width="90" height="90" rx="8" ry="8"/>
+          <rect x="305" y="505" width="90" height="90" rx="8" ry="8"/>
+          <rect x="505" y="505" width="90" height="90" rx="8" ry="8"/>
+          <rect x="705" y="505" width="90" height="90" rx="8" ry="8"/>
+          <rect x="5" y="605" width="90" height="90" rx="8" ry="8"/>
+          <rect x="205" y="605" width="90" height="90" rx="8" ry="8"/>
+          <rect x="405" y="605" width="90" height="90" rx="8" ry="8"/>
+          <rect x="605" y="605" width="90" height="90" rx="8" ry="8"/>
+          <rect x="105" y="705" width="90" height="90" rx="8" ry="8"/>
+          <rect x="305" y="705" width="90" height="90" rx="8" ry="8"/>
+          <rect x="505" y="705" width="90" height="90" rx="8" ry="8"/>
+          <rect x="705" y="705" width="90" height="90" rx="8" ry="8"/>
+        </g>
+        <g fill="#A0A0A0">
+          <!-- Dark square rects (complement of above) -->
+          <!-- Could be generated as (row + col) % 2 == 1 -->
+          <rect x="105" y="5" width="90" height="90" rx="8" ry="8"/>
+          <rect x="305" y="5" width="90" height="90" rx="8" ry="8"/>
+          <rect x="505" y="5" width="90" height="90" rx="8" ry="8"/>
+          <rect x="705" y="5" width="90" height="90" rx="8" ry="8"/>
+          <rect x="5" y="105" width="90" height="90" rx="8" ry="8"/>
+          <rect x="205" y="105" width="90" height="90" rx="8" ry="8"/>
+          <rect x="405" y="105" width="90" height="90" rx="8" ry="8"/>
+          <rect x="605" y="105" width="90" height="90" rx="8" ry="8"/>
+          <rect x="105" y="205" width="90" height="90" rx="8" ry="8"/>
+          <rect x="305" y="205" width="90" height="90" rx="8" ry="8"/>
+          <rect x="505" y="205" width="90" height="90" rx="8" ry="8"/>
+          <rect x="705" y="205" width="90" height="90" rx="8" ry="8"/>
+          <rect x="5" y="305" width="90" height="90" rx="8" ry="8"/>
+          <rect x="205" y="305" width="90" height="90" rx="8" ry="8"/>
+          <rect x="405" y="305" width="90" height="90" rx="8" ry="8"/>
+          <rect x="605" y="305" width="90" height="90" rx="8" ry="8"/>
+          <rect x="105" y="405" width="90" height="90" rx="8" ry="8"/>
+          <rect x="305" y="405" width="90" height="90" rx="8" ry="8"/>
+          <rect x="505" y="405" width="90" height="90" rx="8" ry="8"/>
+          <rect x="705" y="405" width="90" height="90" rx="8" ry="8"/>
+          <rect x="5" y="505" width="90" height="90" rx="8" ry="8"/>
+          <rect x="205" y="505" width="90" height="90" rx="8" ry="8"/>
+          <rect x="405" y="505" width="90" height="90" rx="8" ry="8"/>
+          <rect x="605" y="505" width="90" height="90" rx="8" ry="8"/>
+          <rect x="105" y="605" width="90" height="90" rx="8" ry="8"/>
+          <rect x="305" y="605" width="90" height="90" rx="8" ry="8"/>
+          <rect x="505" y="605" width="90" height="90" rx="8" ry="8"/>
+          <rect x="705" y="605" width="90" height="90" rx="8" ry="8"/>
+          <rect x="5" y="705" width="90" height="90" rx="8" ry="8"/>
+          <rect x="205" y="705" width="90" height="90" rx="8" ry="8"/>
+          <rect x="405" y="705" width="90" height="90" rx="8" ry="8"/>
+          <rect x="605" y="705" width="90" height="90" rx="8" ry="8"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+

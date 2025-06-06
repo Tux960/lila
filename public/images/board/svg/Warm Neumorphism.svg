@@ -1,0 +1,39 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Warm neumorphism themed chessboard">
+  <defs>
+    <!-- Neumorphic filters -->
+    <filter id="lightShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feOffset dx="-5" dy="-5" in="SourceAlpha" result="offOut" />
+      <feGaussianBlur stdDeviation="5" in="offOut" result="blurOut" />
+      <feFlood flood-color="#fff" flood-opacity="0.3" result="colorOut" />
+      <feComposite operator="in" in="colorOut" in2="blurOut" result="shadowOut" />
+      <feBlend in="SourceGraphic" in2="shadowOut" mode="normal" />
+    </filter>
+    <filter id="darkShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feOffset dx="5" dy="5" in="SourceAlpha" result="offOut" />
+      <feGaussianBlur stdDeviation="5" in="offOut" result="blurOut" />
+      <feFlood flood-color="#000" flood-opacity="0.2" result="colorOut" />
+      <feComposite operator="in" in="colorOut" in2="blurOut" result="shadowOut" />
+      <feBlend in="SourceGraphic" in2="shadowOut" mode="normal" />
+    </filter>
+
+    <!-- Pattern for light squares -->
+    <pattern id="lightSquares" width="200" height="200" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="90" height="90" rx="15" ry="15" fill="#F0EAD6" filter="url(#lightShadow) url(#darkShadow)" />
+      <rect x="100" y="100" width="90" height="90" rx="15" ry="15" fill="#F0EAD6" filter="url(#lightShadow) url(#darkShadow)" />
+    </pattern>
+
+    <!-- Pattern for dark squares -->
+    <pattern id="darkSquares" width="200" height="200" patternUnits="userSpaceOnUse">
+      <rect x="100" y="0" width="90" height="90" rx="15" ry="15" fill="#D0C7AD" filter="url(#darkShadow) url(#lightShadow)" />
+      <rect x="0" y="100" width="90" height="90" rx="15" ry="15" fill="#D0C7AD" filter="url(#darkShadow) url(#lightShadow)" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="#F0EAD6" rx="20" ry="20" />
+
+  <!-- Overlay patterns to form chessboard -->
+  <rect width="800" height="800" fill="url(#lightSquares)" />
+  <rect width="800" height="800" fill="url(#darkSquares)" />
+</svg>
+

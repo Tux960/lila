@@ -1,0 +1,112 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Watercolor painterly themed chessboard">
+  <defs>
+    <radialGradient id="lightWatercolorGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F5F5DC" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FAEBD7" stop-opacity="0.7"/>
+    </radialGradient>
+    <radialGradient id="darkWatercolorGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6B8E8E" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#5F7B7B" stop-opacity="0.7"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#E0D7C4" rx="15" ry="15"/>
+
+  <!-- Board squares -->
+  <g>
+    <!-- 8x8 board -->
+    <!-- Square size: 90, padding: 5 -->
+    <!-- rx: 10 for rounded corners -->
+    <!-- Use two groups for light and dark squares -->
+    <!-- Draw squares based on their index -->
+    <g id="lightSquares" fill="url(#lightWatercolorGradient)">
+      <!-- Light: (row + col) % 2 === 0 -->
+      <!-- Loop simulation -->
+      <!-- Each square: x = col*100 + 5, y = row*100 + 5 -->
+      <rect x="5" y="5" width="90" height="90" rx="10"/>
+      <rect x="205" y="5" width="90" height="90" rx="10"/>
+      <rect x="405" y="5" width="90" height="90" rx="10"/>
+      <rect x="605" y="5" width="90" height="90" rx="10"/>
+
+      <rect x="105" y="105" width="90" height="90" rx="10"/>
+      <rect x="305" y="105" width="90" height="90" rx="10"/>
+      <rect x="505" y="105" width="90" height="90" rx="10"/>
+      <rect x="705" y="105" width="90" height="90" rx="10"/>
+
+      <rect x="5" y="205" width="90" height="90" rx="10"/>
+      <rect x="205" y="205" width="90" height="90" rx="10"/>
+      <rect x="405" y="205" width="90" height="90" rx="10"/>
+      <rect x="605" y="205" width="90" height="90" rx="10"/>
+
+      <rect x="105" y="305" width="90" height="90" rx="10"/>
+      <rect x="305" y="305" width="90" height="90" rx="10"/>
+      <rect x="505" y="305" width="90" height="90" rx="10"/>
+      <rect x="705" y="305" width="90" height="90" rx="10"/>
+
+      <rect x="5" y="405" width="90" height="90" rx="10"/>
+      <rect x="205" y="405" width="90" height="90" rx="10"/>
+      <rect x="405" y="405" width="90" height="90" rx="10"/>
+      <rect x="605" y="405" width="90" height="90" rx="10"/>
+
+      <rect x="105" y="505" width="90" height="90" rx="10"/>
+      <rect x="305" y="505" width="90" height="90" rx="10"/>
+      <rect x="505" y="505" width="90" height="90" rx="10"/>
+      <rect x="705" y="505" width="90" height="90" rx="10"/>
+
+      <rect x="5" y="605" width="90" height="90" rx="10"/>
+      <rect x="205" y="605" width="90" height="90" rx="10"/>
+      <rect x="405" y="605" width="90" height="90" rx="10"/>
+      <rect x="605" y="605" width="90" height="90" rx="10"/>
+
+      <rect x="105" y="705" width="90" height="90" rx="10"/>
+      <rect x="305" y="705" width="90" height="90" rx="10"/>
+      <rect x="505" y="705" width="90" height="90" rx="10"/>
+      <rect x="705" y="705" width="90" height="90" rx="10"/>
+    </g>
+
+    <g id="darkSquares" fill="url(#darkWatercolorGradient)">
+      <!-- Dark: (row + col) % 2 === 1 -->
+      <rect x="105" y="5" width="90" height="90" rx="10"/>
+      <rect x="305" y="5" width="90" height="90" rx="10"/>
+      <rect x="505" y="5" width="90" height="90" rx="10"/>
+      <rect x="705" y="5" width="90" height="90" rx="10"/>
+
+      <rect x="5" y="105" width="90" height="90" rx="10"/>
+      <rect x="205" y="105" width="90" height="90" rx="10"/>
+      <rect x="405" y="105" width="90" height="90" rx="10"/>
+      <rect x="605" y="105" width="90" height="90" rx="10"/>
+
+      <rect x="105" y="205" width="90" height="90" rx="10"/>
+      <rect x="305" y="205" width="90" height="90" rx="10"/>
+      <rect x="505" y="205" width="90" height="90" rx="10"/>
+      <rect x="705" y="205" width="90" height="90" rx="10"/>
+
+      <rect x="5" y="305" width="90" height="90" rx="10"/>
+      <rect x="205" y="305" width="90" height="90" rx="10"/>
+      <rect x="405" y="305" width="90" height="90" rx="10"/>
+      <rect x="605" y="305" width="90" height="90" rx="10"/>
+
+      <rect x="105" y="405" width="90" height="90" rx="10"/>
+      <rect x="305" y="405" width="90" height="90" rx="10"/>
+      <rect x="505" y="405" width="90" height="90" rx="10"/>
+      <rect x="705" y="405" width="90" height="90" rx="10"/>
+
+      <rect x="5" y="505" width="90" height="90" rx="10"/>
+      <rect x="205" y="505" width="90" height="90" rx="10"/>
+      <rect x="405" y="505" width="90" height="90" rx="10"/>
+      <rect x="605" y="505" width="90" height="90" rx="10"/>
+
+      <rect x="105" y="605" width="90" height="90" rx="10"/>
+      <rect x="305" y="605" width="90" height="90" rx="10"/>
+      <rect x="505" y="605" width="90" height="90" rx="10"/>
+      <rect x="705" y="605" width="90" height="90" rx="10"/>
+
+      <rect x="5" y="705" width="90" height="90" rx="10"/>
+      <rect x="205" y="705" width="90" height="90" rx="10"/>
+      <rect x="405" y="705" width="90" height="90" rx="10"/>
+      <rect x="605" y="705" width="90" height="90" rx="10"/>
+    </g>
+  </g>
+</svg>
+

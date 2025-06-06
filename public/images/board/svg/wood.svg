@@ -1,0 +1,26 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wood-themed chessboard with subtle gradients">
+  <defs>
+    <linearGradient id="darkSquareGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B4513"/>
+      <stop offset="100%" stop-color="#6B330D"/>
+    </linearGradient>
+
+    <!-- Define one square size -->
+    <pattern id="chessboard" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+      <!-- Light square top-left -->
+      <rect x="0" y="0" width="90" height="90" fill="#D2B48C" rx="8" ry="8"/>
+      <!-- Dark square top-right -->
+      <rect x="100" y="0" width="90" height="90" fill="url(#darkSquareGradient)" rx="8" ry="8"/>
+      <!-- Dark square bottom-left -->
+      <rect x="0" y="100" width="90" height="90" fill="url(#darkSquareGradient)" rx="8" ry="8"/>
+      <!-- Light square bottom-right -->
+      <rect x="100" y="100" width="90" height="90" fill="#D2B48C" rx="8" ry="8"/>
+    </pattern>
+  </defs>
+
+  <!-- Background frame -->
+  <rect width="800" height="800" fill="#5A2E05" rx="8" ry="8"/>
+  <!-- Chessboard using pattern, offset by 5 units for padding -->
+  <rect x="5" y="5" width="790" height="790" fill="url(#chessboard)" rx="8" ry="8"/>
+</svg>
+
